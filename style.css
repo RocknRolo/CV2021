@@ -28,6 +28,20 @@ div, aside {
 	margin: 10px;
 }
 
+a {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
 .top {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
